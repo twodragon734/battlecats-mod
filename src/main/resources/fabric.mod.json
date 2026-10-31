@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "battlecats",
+  "version": "${version}",
+  "name": "Battle Cats",
+  "description": "Lane battles, gacha cats and a Doge.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.battlecats.BattleCats"],
+    "client": ["com.example.battlecats.BattleCatsClient"]
+  },
+  "mixins": ["battlecats.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
